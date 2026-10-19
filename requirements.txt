@@ -1,0 +1,8 @@
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+scikit-learn>=1.2
+# only for re-running experiments on a GPU:
+# torch>=2.1
+# transformers>=4.51
+# datasets>=2.18

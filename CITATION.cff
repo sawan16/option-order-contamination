@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the paper."
+title: "Exact option-order tests for multiple-choice benchmark contamination"
+authors:
+  - family-names: Rai
+    given-names: Sawan
+    affiliation: "SRM University-AP"
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/sawan16/option-order-contamination"

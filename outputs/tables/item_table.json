@@ -1,0 +1,165 @@
+{
+ "mmlu": {
+  "numeric, sorted": {
+   "n": 20,
+   "share": 0.04,
+   "mean_u": 0.1284018903718679,
+   "top1": 0.6272727272727273,
+   "models_reject": 9,
+   "median_p": 3.063977446621398e-14
+  },
+  "numeric, unsorted": {
+   "n": 9,
+   "share": 0.018,
+   "mean_u": 0.410728317180307,
+   "top1": 0.050505050505050504,
+   "models_reject": 0,
+   "median_p": 0.2557197259023185
+  },
+  "fixed template (e.g. True/False, Wrong/Not wrong pairs)": {
+   "n": 37,
+   "share": 0.074,
+   "mean_u": 0.1415202654806243,
+   "top1": 0.47174447174447176,
+   "models_reject": 10,
+   "median_p": 1.2912712033427818e-17
+  },
+  "roman-numeral combinations (I only, II and III, ...)": {
+   "n": 7,
+   "share": 0.014,
+   "mean_u": 0.07289597052764914,
+   "top1": 0.5194805194805194,
+   "models_reject": 11,
+   "median_p": 1.69539239618852e-07
+  },
+  "'all/none/both of the above' option": {
+   "n": 26,
+   "share": 0.052,
+   "mean_u": 0.21656797025547547,
+   "top1": 0.2062937062937063,
+   "models_reject": 9,
+   "median_p": 3.5049029988497837e-08
+  },
+  "lengths monotone": {
+   "n": 32,
+   "share": 0.064,
+   "mean_u": 0.3759776262113762,
+   "top1": 0.17897727272727273,
+   "models_reject": 11,
+   "median_p": 7.725165539390822e-05
+  },
+  "any structured option set": {
+   "n": 118,
+   "share": 0.236,
+   "mean_u": 0.21798406197946998,
+   "top1": 0.35670261941448383,
+   "models_reject": 11,
+   "median_p": 7.714812435823422e-37
+  },
+  "none of these structures": {
+   "n": 382,
+   "share": 0.764,
+   "mean_u": 0.44413940430461474,
+   "top1": 0.07996192289386006,
+   "models_reject": 9,
+   "median_p": 3.1611407149341374e-06
+  }
+ },
+ "arc": {
+  "numeric, sorted": {
+   "n": 19,
+   "share": 0.038,
+   "mean_u": 0.16487986515120945,
+   "top1": 0.5119617224880383,
+   "models_reject": 9,
+   "median_p": 4.007312236217665e-11
+  },
+  "numeric, unsorted": {
+   "n": 1,
+   "share": 0.002,
+   "mean_u": 0.20673272877934942,
+   "top1": 0.45454545454545453,
+   "models_reject": 0,
+   "median_p": 0.07415697120359187
+  },
+  "fixed template (e.g. True/False, Wrong/Not wrong pairs)": null,
+  "roman-numeral combinations (I only, II and III, ...)": null,
+  "'all/none/both of the above' option": null,
+  "lengths monotone": {
+   "n": 124,
+   "share": 0.248,
+   "mean_u": 0.42936251158801975,
+   "top1": 0.07771260997067449,
+   "models_reject": 6,
+   "median_p": 0.001469515927392488
+  },
+  "any structured option set": {
+   "n": 143,
+   "share": 0.286,
+   "mean_u": 0.3942214606628492,
+   "top1": 0.1354100445009536,
+   "models_reject": 10,
+   "median_p": 1.1863996660120416e-09
+  },
+  "none of these structures": {
+   "n": 357,
+   "share": 0.714,
+   "mean_u": 0.43024320474866684,
+   "top1": 0.07690348866819455,
+   "models_reject": 9,
+   "median_p": 1.3512696055824498e-07
+  }
+ },
+ "obqa": {
+  "numeric, sorted": null,
+  "numeric, unsorted": {
+   "n": 4,
+   "share": 0.008,
+   "mean_u": 0.5321641441511247,
+   "top1": 0.022727272727272728,
+   "models_reject": 0,
+   "median_p": 0.4978336462871453
+  },
+  "fixed template (e.g. True/False, Wrong/Not wrong pairs)": null,
+  "roman-numeral combinations (I only, II and III, ...)": {
+   "n": 1,
+   "share": 0.002,
+   "mean_u": 0.6847444285332869,
+   "top1": 0.0,
+   "models_reject": 0,
+   "median_p": 0.7301989739878323
+  },
+  "'all/none/both of the above' option": {
+   "n": 18,
+   "share": 0.036,
+   "mean_u": 0.42689550219033207,
+   "top1": 0.030303030303030304,
+   "models_reject": 0,
+   "median_p": 0.30240757129901796
+  },
+  "lengths monotone": {
+   "n": 24,
+   "share": 0.048,
+   "mean_u": 0.46306989440631346,
+   "top1": 0.06439393939393939,
+   "models_reject": 0,
+   "median_p": 0.20276688567829654
+  },
+  "any structured option set": {
+   "n": 41,
+   "share": 0.082,
+   "mean_u": 0.45261253488964154,
+   "top1": 0.050997782705099776,
+   "models_reject": 0,
+   "median_p": 0.15524651524185318
+  },
+  "none of these structures": {
+   "n": 459,
+   "share": 0.918,
+   "mean_u": 0.5020476997627481,
+   "top1": 0.044563279857397504,
+   "models_reject": 0,
+   "median_p": 0.4479732015010844
+  }
+ }
+}
